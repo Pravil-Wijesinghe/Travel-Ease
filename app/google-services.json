@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "734450609309",
+    "project_id": "travelease-5b02b",
+    "storage_bucket": "travelease-5b02b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734450609309:android:b95745a13d847c3ef0b874",
+        "android_client_info": {
+          "package_name": "com.example.TravelEase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzfjmGsXfqTptRyWT-x_QCddoeuftVdw8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734450609309:android:7b97f940dc1c09a2f0b874",
+        "android_client_info": {
+          "package_name": "com.example.toursimapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzfjmGsXfqTptRyWT-x_QCddoeuftVdw8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

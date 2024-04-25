@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Layer for the ellipse shape -->
+    <item>
+        <shape android:shape="oval">
+
+            <solid android:color="#18C0C1"/>
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:id="@+id/title_home"
+        android:layout_width="149dp"
+        android:layout_height="31dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal|top"
+        android:lineSpacingExtra="-7sp"
+        android:text="Home"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.055" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/colombo_button"
+                android:layout_width="match_parent"
+                android:layout_height="134dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="90dp"
+                android:background="@drawable/colombo" />
+
+            <ImageButton
+                android:id="@+id/galle_button"
+                android:layout_width="match_parent"
+                android:layout_height="134dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="244dp"
+                android:background="@drawable/galle" />
+
+            <ImageButton
+                android:id="@+id/anurapura_button"
+                android:layout_width="match_parent"
+                android:layout_height="134dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="398dp"
+                android:background="@drawable/anurapura" />
+
+            <ImageButton
+                android:id="@+id/jaffna_button"
+                android:layout_width="match_parent"
+                android:layout_height="134dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="552dp"
+                android:layout_marginBottom="658dp"
+                android:background="@drawable/jaffna" />
+
+            <ImageButton
+                android:id="@+id/sigiriya_button"
+                android:layout_width="match_parent"
+                android:layout_height="134dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="706dp"
+                android:layout_marginBottom="658dp"
+                android:background="@drawable/sigiriya" />
+
+            <ImageButton
+                android:id="@+id/pasikuda_button"
+                android:layout_width="match_parent"
+                android:layout_height="134dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="860dp"
+                android:layout_marginBottom="658dp"
+                android:background="@drawable/pasikuda" />
+
+            <ImageButton
+                android:id="@+id/pasikuda1_button"
+                android:layout_width="match_parent"
+                android:layout_height="134dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="860dp"
+                android:layout_marginBottom="658dp"
+                android:background="@drawable/pasikuda" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <!-- Navigation Bar -->
+
+    <View
+        android:id="@+id/rectangle_3"
+        android:layout_width="415dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="815dp"
+        android:background="@drawable/navigate_rectangle" />
+
+    <View
+        android:id="@+id/subtract"
+        android:layout_height="58dp"
+        android:layout_width="110dp"
+        android:layout_marginTop="815dp"
+        android:layout_marginStart="17dp"
+        android:background="@drawable/subtract" />
+
+    <View
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="810dp"
+        android:background="@drawable/navigate_ellipse" />
+
+    <ImageButton
+        android:id="@+id/home_button"
+        android:layout_width="78dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="819dp"
+        android:background="@drawable/home" />
+
+    <ImageButton
+        android:id="@+id/fav_button"
+        android:layout_width="78dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="827dp"
+        android:background="@drawable/favourite"
+        />
+
+    <ImageButton
+        android:id="@+id/feedback_button"
+        android:layout_width="78dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="827dp"
+        android:background="@drawable/feedback" />
+
+    <ImageButton
+        android:id="@+id/profile_button"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="827dp"
+        android:src="@drawable/profile" />
+
+</RelativeLayout>

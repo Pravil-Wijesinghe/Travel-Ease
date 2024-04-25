@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/welcomebg"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/cmb"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  Back"
+        android:textSize="22sp"
+        android:layout_centerInParent="true"
+        android:textColor="#007AFF"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="14dp"
+        android:drawableLeft="@drawable/back_arrow"
+        android:paddingStart="8dp"
+        android:clickable="true"
+        android:onClick="onBackButtonClick" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="COLOMBO"
+            android:textSize="22sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/info"
+                android:layout_marginTop="-20dp"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/fixedImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bottom"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

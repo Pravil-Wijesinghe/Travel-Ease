@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Achila-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#E0E0E0"
+    tools:context=".Login">
+
+    <View
+        android:id="@+id/signimage"
+        android:layout_width="227dp"
+        android:layout_height="217dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/signimg"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dp"/>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:drawableEnd="@drawable/user"/>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email Address"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/emailadd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:drawableEnd="@drawable/mail"/>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Password"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/createpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:drawableEnd="@drawable/lock"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm Password"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/confpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:drawableEnd="@drawable/approve"/>
+
+
+    <Button
+        android:layout_width="136dp"
+        android:layout_height="44dp"
+        android:text="Sign up"
+        android:id="@+id/signup"
+        android:onClick="signup"
+        android:backgroundTint="@color/custom_blue"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Already have an account? " />
+
+        <TextView
+            android:id="@+id/logintext"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/custom_blue"
+            android:text="Login" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
